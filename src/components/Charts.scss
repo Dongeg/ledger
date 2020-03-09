@@ -1,0 +1,13 @@
+.charts-ctn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.charts-item {
+    text-align: center;
+
+}
+.chart-dir {
+    font-size: $font-md;
+}

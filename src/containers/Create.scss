@@ -1,0 +1,57 @@
+.create-ctn {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.tags-ctn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+.tags-item {
+  cursor: pointer;
+  text-align: center;
+  &:hover {
+    .tags-icon {
+      border: none;
+      color: white;
+      background: $theme;
+    }
+  }
+}
+.tags-item-active {
+  .tags-icon {
+    border: none;
+    color: white;
+    background: $theme;
+  }
+}
+.tags-icon {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 auto 10px;
+  border: 1px solid $border1Color;
+  color: $font3Color;
+  font-size: $font-lg;
+  border-radius:50% ;
+}
+.tags-text {
+
+}
+.form-item-ctn {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  > span {
+    width: 50px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+}
+.btn-ctn {
+  text-align: right;
+  padding-bottom: 30px;
+}
