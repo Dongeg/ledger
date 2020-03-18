@@ -1,4 +1,4 @@
-# react+redux+saga+react-router+antd实现在线账本pp).
+# react+redux+saga+react-router+antd实现在线账本
 
 ## Available Scripts
 
