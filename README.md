@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react+redux+saga+react-router+antd实现在线账本pp).
 
 ## Available Scripts
 
